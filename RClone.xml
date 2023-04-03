@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.githubusercontent.com/ohmrun/0install_rclone/main/RClone.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>RClone</name>
+  <summary>The Swiss army knife of cloud storage</summary>
+  <description>
+Rclone is a command-line program to manage files on cloud storage</description>
+  <homepage>rclone.org</homepage>
+  <category>Development</category>
+  <group released="2023-04-03" version="1.62.2">
+    <implementation arch="Windows-x86_64" id="sha1new=969ed689f51bfc5b73dd7fefa358017ba86337bc" released="2023-04-03" version="1.62.2">
+    <archive extract="rclone-v1.62.2-windows-amd64" href="https://github.com/rclone/rclone/releases/download/v1.62.2/rclone-v1.62.2-windows-amd64.zip" size="17648040" type="application/zip"/>
+  </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=ca45afaedc8d8ad05803ecc721e54bf5af50a621" main="rclone" released="2023-04-03" version="1.62.2">
+    <archive extract="rclone-v1.62.2-linux-amd64" href="http://SITE/rclone-v1.62.2-linux-amd64.zip" size="17778094" type="application/zip"/>
+  </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=b951d837db6e9d1a9e587876caf6e28c50042dd6" main="rclone" released="2023-04-03" version="1.62.2">
+    <archive extract="rclone-v1.62.2-osx-amd64" href="https://github.com/rclone/rclone /releases/download/v1.62.2/rclone-v1.62.2-osx-amd64.zip" size="21038137" type="application/zip"/>
+  </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEETWoPBduDNgNeBnm0JPsSVcwVyI0FAmQqvxsACgkQJPsSVcwVyI0cqQwAnYy/
+PrCLBnDLETE9klgP8W82CSmdjnzA7gxoRsKvSSZkpAa4ZX6QWHm0Tg0NCOsMiukWD+LbsGRZWRBp
+1p8DBZ7x5/4FIDUfRrc+EYetFXT7Fx2EKVMU3PKbJJLKrTBTcug0KI3lHeoC0C/GJW/Ns6NiL3ng
+quF3JNmCW2kchLEXGORh5Gs08xVTSsXEcyezK2oiqzta5Pu88fsoiovU9iw0Da+GeLq8SgeUFMRf
+SO1x9UN2pPij918y+gskbDCqVZLsavkG//6u0YNDaO6H/fVeA/UNq2etxPzDz4yrYAmfXTkYbRDM
+Toe5in0LpuXS2aeEmK9UuPFbLcuyLJsWMRhviiE+hNTi5IBoLJOk5vgYSM2BpJrxWA7NCbP0XIH8
+wiBoJ+TDys1sZ13/OD2GSgqt1r/nGVQDFNN2ByWF7SG1I8XQdo2w+7l8UR/YvpKGHIwODi5557tv
+I2Yv1FdygRbijJoHCBKK2yBfewzRULtwbJzh3lsIec6HZNfkRBhi
+
+-->
