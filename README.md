@@ -10,3 +10,9 @@ Add `rclone`
 
 ```
 
+
+| Platform              | Arch   |Status      | Proof  |
+| --------------------- | ------ | ---------- | ------ |
+| Ubuntu 22.10          | x86_64 | Working    | ------ |
+| Windows 10            | x86_64 | Untested   | ------ |
+| Mac OSX               | x86_64 | Untested   | ------ |
