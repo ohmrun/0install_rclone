@@ -4,9 +4,9 @@
 
 Install [`0Install`](https://get.0install.net/)
 
-Add `bb`
+Add `rclone`
 ```bash
-0install add bb https://raw.githubusercontent.com/ohmrun/0install_rclone/main/RClone.xml
+0install add rclone https://raw.githubusercontent.com/ohmrun/0install_rclone/main/RClone.xml
 
 ```
 
